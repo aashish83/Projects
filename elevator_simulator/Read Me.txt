@@ -1,0 +1,10 @@
+Follow the steps mentioned below to run the elevator simulator:
+
+1. Open the program in the IDE
+2. Run the main method (Controller Class)
+3. Once the program is run, it asks for input in the console
+4. Enter the number of floors and then enter the number of elevators
+5. Once the input is given, simulation window appears
+6. External elevator buttons and elevator car are in one window and internal elevator buttons for each elevator are in the seperate window
+7. Press the external or internal buttons to make the elevator call
+8. Closing the simulation window will terminate the program
