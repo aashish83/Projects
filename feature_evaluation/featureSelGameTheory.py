@@ -209,10 +209,8 @@ ks = crossvalperf(col_names,yvals).mean()
 kn = crossvalperf(col_names1,yvals).mean()
 
 ### including other feature selection algo:
-#len(col_namesb)
-#len(col_names)
-#len(col_names1)
-#############Feature sel using extra trees classifier
+
+######Feature sel using extra trees classifier
 r2 = 60
 model = ExtraTreesClassifier()
 model.fit(xdf, yvals)
